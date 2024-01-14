@@ -28,9 +28,17 @@
     <main>
       <section id="video-section">
         <blockquote id="video-quote">
-          <span>"</span> In web development, the possibilities are endless. Embrace innovation, push boundaries, and create something extraordinary. <span>"</span>
+          <span>"</span> In web development, the possibilities are endless. Embrace innovation, push boundaries, 
+          and create something extraordinary. <span>"</span>
         </blockquote>
-        <iframe id="video" src="https://www.youtube.com/embed/zJSY8tbf_ys?si=e8vrEJAmdd0vQ8a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        <iframe 
+          id="video" 
+          src="https://www.youtube.com/embed/zJSY8tbf_ys?si=e8vrEJAmdd0vQ8a1" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen loading="lazy">
+        </iframe>
       </section>
       <section id="form-section">
         <div id="interested-title">
@@ -41,10 +49,10 @@
         <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
           <fieldset id="interest-form">
             <label class="input-label" for="name">Name: </label>
-            <input id="name" type="text" placeholder="Enter your name" />
+            <input id="name" type="text" placeholder="Enter your name" required />
             <div class="spacer"></div>
             <label class="input-label" for="email">Email: </label>
-            <input id="email" type="email" placeholder="Enter your email address" name="email" />
+            <input id="email" type="email" placeholder="Enter your email address" name="email" required />
             <div class="spacer"></div>
             <input id="submit" type="submit" value="Send" />
           </fieldset>
@@ -74,6 +82,31 @@
           sit.
         </p>
       </section>
+      <section id="purchase-section">
+        <div class="option">
+          <h3>Full-stack</h3>
+          <p>
+            Nam aliquam sem et tortor consequat id porta nibh. Eget egestas purus viverra accumsan in. Dolor purus non 
+            enim praesent elementum facilisis.
+          </p>
+          <button class="select-button">Select</button>
+        </div>
+        <div class="option">
+          <h3>Front-end</h3>
+          <p>
+            Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Ultrices mi tempus imperdiet nulla malesuada 
+            pellentesque.
+          </p>
+          <button class="select-button">Select</button>
+        </div>
+        <div class="option">
+          <h3>Back-end</h3>
+          <p>
+            Leo integer malesuada nunc vel risus. Feugiat nisl pretium fusce id velit. Scelerisque mauris pellentesque 
+            pulvinar pellentesque habitant morbi tristique.
+          </p>
+          <button class="select-button">Select</button>
+        </div>
     </main>
     <footer id="contact-info">
       <div id="contact-link" class="section-link"></div>
